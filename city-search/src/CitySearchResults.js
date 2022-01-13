@@ -11,13 +11,13 @@ export default function CitySearchResults(props){
             .then(ret => setData(ret))
     },[url])
 
-    if(data) {
+    if(data && props.city.length>1) {
             return (
                 <div id={"results"}>
-                    <h2>These are the associated zip codes for {props.city}</h2>
+                    <h2>These are the associated zip codes for {props.city.toString().toUpperCase()}</h2>
                     {data.map((elm) =>{
                         return <div>
-                            <h2>{elm}</h2>
+                            <h3>{elm}</h3>
                             <br></br>
                                 </div>
                     })}

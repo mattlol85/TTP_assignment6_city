@@ -1,0 +1,18 @@
+#city-label{
+    font-size: 30px;
+    background-color: #1E007E;
+    color: white;
+    border-radius: 8px;
+}
+
+#results{
+    display: inline-block;
+    border: black 3px solid;
+}
+
+#result-item{
+background-color: aqua;
+height: fit-content;
+width: fit-content;
+border-radius: 15px;
+}

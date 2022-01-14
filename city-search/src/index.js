@@ -7,7 +7,6 @@ import CityInputBox from "./CityInputBox";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CityInputBox/>
   </React.StrictMode>,
   document.getElementById('root')
 );
